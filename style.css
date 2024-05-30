@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#registation_form{
+    height: 85vh;
+    width: 60vw;
+    background-color: rgba(230, 201, 13, 0.4);
+    border-top: 8px solid rgba(104, 99, 4, 0.7);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#registation_form form{
+    margin-top: 25px;
+}
+input{
+    height: 1.8rem;
+    width: 16rem;
+    margin: 5px 0;
+    background: transparent;
+    border: none;
+}
+input:active{
+    border: none;
+    border: 2px solid rgb(195, 13, 13);
+}
+.name input{
+    width: 7.5rem;
+}
+.gender input{
+    height: 15px;
+    width: 15px;
+    margin: 5px 0px;
+    
+}
+.gender label{
+    margin-right: 35px;
+}
+.country select{
+    width: 16rem;
+    height: 1.5rem;
+    background: transparent;
+    border: 2px solid rgb(203, 167, 101);
+}
+.checkbox input{
+    height: 15px;
+    width: 15px;
+}
+input[type="button"]{
+    background-color: orange;
+}
+.input_file{
+ position: relative;
+ border: 2px solid orange;
+ margin: 0.7rem 0;
+}

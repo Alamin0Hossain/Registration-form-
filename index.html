@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <title>Web programming sessional || class 1 assinment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="registation_form">
+    <form action="#">
+        <div class="input_file eamil">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+    
+        <div class="input_file passward">
+            <input type="password" name="passward" id="password" placeholder="Password">
+            <i class="fa-solid fa-lock"></i>
+        </div>
+        <div class="input_file RePassword">
+            <input type="password" name="passward" id="email" placeholder="Re-type password">
+            <i class="fa-solid fa-lock"></i>
+        </div>
+
+        <div class="name">
+            <input type="text" name="F-name" id="F-name" placeholder="First Name">
+            <input type="text" name="L-name" id="L-name" placeholder="Last Name">
+        </div>
+
+        <div class="gender">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="Femle">
+            <label for="Female">Female</label>
+        </div>
+        <div class="birth_date">
+            <label for="birth">Enter your birth date</label><br>
+            <input type="date" name="birth" id="birth">
+        </div>
+        <div class="country">
+            <label for="country">Select your country</label> <br>
+            <select name="country" id="country" aria-placeholder="country">
+                <option value="Bangladesh">Bangladsh</option>
+                <option value="India">India</option>
+                <option value="Pakisthan">Pakisthan</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Srilanka">Srilanka</option>
+                <option value="Vutan">Vutan</option>
+            </select>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" id="condition" name="condition" value="condition">
+            <label for="condition"> I agree with term and condition.</label><br>
+            <input type="checkbox" id="conditon" name="condition" value="condition">
+            <label for="condition">I want to receive the newsletter.</label><br>
+        </div>
+        <input type="button" value="Registration">
+       </form>
+   </div>
+</body>
+</html>
